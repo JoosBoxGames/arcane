@@ -1,0 +1,7 @@
+[package]
+name = "arcane-internal"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arcane-app = { path = "../arcane_app" }
