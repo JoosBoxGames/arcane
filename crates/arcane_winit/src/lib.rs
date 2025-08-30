@@ -1,9 +1,9 @@
 use arcane_app::{App, Plugin};
 
 #[derive(Default)]
-pub struct WindowPlugin;
+pub struct WinitPlugin;
 
-impl Plugin for WindowPlugin {
+impl Plugin for WinitPlugin {
     fn build(&self, _app: &mut App) {
         // // Add Winit-specific resources
         // let event_loop = EventLoop::new().unwrap();

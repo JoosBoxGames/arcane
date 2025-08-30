@@ -70,7 +70,7 @@ name = "arcane-internal"
 version = "0.1.0"
 dependencies = [
  "arcane_app",
- "arcane_window",
+ "arcane_winit",
 ]
 
 [[package]]
@@ -78,7 +78,7 @@ name = "arcane_app"
 version = "0.1.0"
 
 [[package]]
-name = "arcane_window"
+name = "arcane_winit"
 version = "0.1.0"
 dependencies = [
  "arcane_app",

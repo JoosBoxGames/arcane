@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 arcane_app = { path = "../arcane_app" }
-arcane_window = { path = "../arcane_window" }
+arcane_winit = { path = "../arcane_winit" }
