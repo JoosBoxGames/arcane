@@ -1,8 +1,9 @@
 [package]
-name = "arcane-internal"
+name = "arcane_window"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 arcane_app = { path = "../arcane_app" }
-arcane_window = { path = "../arcane_window" }
+
+winit = "0.29"

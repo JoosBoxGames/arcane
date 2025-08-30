@@ -1,7 +1,5 @@
-pub struct App {}
+mod app;
+mod plugin;
 
-impl App {
-    pub fn new() {
-        println!("Hello from App!");
-    }
-}
+pub use app::App;
+pub use plugin::*;

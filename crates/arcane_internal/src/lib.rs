@@ -1,6 +1,7 @@
 pub use arcane_app as app;
+pub use arcane_window as window;
 
-/// Internal prelude - items commonly used within the arcane ecosystem
 pub mod prelude {
-    pub use crate::app::App;
+    pub use crate::app::*;
+    pub use crate::window::*;
 }
