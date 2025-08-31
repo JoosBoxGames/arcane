@@ -1,7 +1,9 @@
 pub use arcane_app as app;
+pub use arcane_ecs as ecs;
 pub use arcane_winit as winit;
 
 pub mod prelude {
     pub use crate::app::*;
+    pub use crate::ecs::*;
     pub use crate::winit::*;
 }
