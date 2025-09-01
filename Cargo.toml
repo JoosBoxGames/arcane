@@ -11,5 +11,9 @@ members = ["crates/*"]
 arcane-internal = { path = "crates/arcane_internal" }
 
 [[example]]
+name = "ecs"
+path = "examples/ecs.rs"
+
+[[example]]
 name = "triangle"
 path = "examples/triangle.rs"
