@@ -1,3 +1,9 @@
-mod entities;
+mod archetypes;
+mod commands;
+mod components;
+mod world;
 
-pub use entities::*;
+pub use archetypes::*;
+pub use commands::*;
+pub use components::*;
+pub use world::*;
